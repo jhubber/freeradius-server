@@ -6,6 +6,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends \
         freeradius \
         freeradius-mysql \
+        freeradius-rest \
         freeradius-utils \
         ca-certificates \
         tzdata \
